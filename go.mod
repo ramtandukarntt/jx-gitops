@@ -50,6 +50,7 @@ require (
 
 replace (
 	// fix yaml comment parsing issue
+        github.com/jenkins-x/go-scm => github.com/ramtandukarntt/go-scm v1.5.217
 	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.3.0
 	gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
 
