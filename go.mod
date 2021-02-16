@@ -17,7 +17,7 @@ require (
 	github.com/ramtandukarntt/go-scm v1.5.217
 	github.com/ramtandukarntt/jx-api/v4 v4.0.25
 	github.com/ramtandukarntt/jx-helpers/v3 v3.0.75
-	github.com/ramtandukarntt/jx-kube-client/v3 v3.0.3
+	github.com/jenkins-x/jx-kube-client/v3 v3.0.2
 	github.com/ramtandukarntt/jx-logging/v3 v3.0.4
 	github.com/ramtandukarntt/lighthouse-client v0.0.25
 	github.com/pborman/uuid v1.2.0
@@ -50,7 +50,7 @@ require (
 
 replace (
 	// fix yaml comment parsing issue
-        github.com/jenkins-x/go-scm => github.com/ramtandukarntt/go-scm v1.5.217
+	github.com/jenkins-x/go-scm => github.com/ramtandukarntt/go-scm v1.5.217
 	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.3.0
 	gopkg.in/yaml.v3 => gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776
 
